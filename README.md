@@ -53,3 +53,4 @@ Our Website Features A Wide Range Of Information On The Top Attractions, Adventu
 <br>
 
 ![Frame 6](https://github.com/damithadev/Visit-Srilanka-Web/assets/104585591/56ca28c3-3e13-43cf-a36e-f169993cb552)
+Diploma
