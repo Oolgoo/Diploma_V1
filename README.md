@@ -1,56 +1,92 @@
+Mongolian Traveling Website Manual
+Table of Contents:
+1.	System Requirements
+2.	Installation Guide
+3.	Usage Instructions
+o	3.1 Exploring the 3D Map
+o	3.2 Using VR Mode
+o	3.3 Viewing Detailed Information
+o	3.4 Additional Features
+________________________________________
+1. System Requirements
+To run the Mongolian traveling website with 3D maps and VR, ensure that your system meets the following requirements:
+Hardware Requirements:
+•	CPU: Intel Core i5 or equivalent
+•	GPU: Dedicated graphics card (e.g., NVIDIA GTX 1060 or higher)
+•	RAM: 8GB minimum (16GB recommended)
+•	Storage: At least 2GB of free space
+•	VR Equipment (Optional): Compatible VR headset such as Oculus Rift, HTC Vive, or Valve Index
+Software Requirements:
+•	Operating System: Windows 10, macOS, or Linux (Ubuntu)
+•	Browser: Chrome, Firefox, or Microsoft Edge (latest version recommended)
+•	Node.js: Version 14.x or higher
+•	npm: Version 6.x or higher
+________________________________________
+2. Installation Guide
+2.1 Prerequisites
+•	Node.js: Download and install from https://nodejs.org/.
+•	npm: It comes bundled with Node.js.
+•	Git: If you're working with version control (optional).
+2.2 Step-by-Step Installation
+Step 1: Clone the Repository
+Use Git to clone the project repository onto your local machine.
+bash
+git clone <your-repository-url>
+Step 2: Navigate to the Project Directory
+After cloning, move into the project directory. 
+bash
+cd mongolian-traveling-site
+Step 3: Install Dependencies
+Use npm to install all the necessary packages and libraries.
+bash
+npm install
+Step 4: Run the Development Server
+Start the local development server to view the project.
+bash
+npm start
+Step 5: View the Website
+Open your web browser and go to:
+arduino
+http://localhost:3000
+You should now be able to see the website running locally on your machine.
+Step 6: VR Setup (Optional)
+If using VR, connect your VR headset and ensure it is detected by your system. Then open the website in a VR-compatible browser and enable VR mode.
+________________________________________
+3. Usage Instructions
+3.1 Exploring the 3D Map
+1.	Navigate to the Homepage: The homepage features an interactive 3D model of the map of Mongolia.
+2.	Map Controls:
+o	Rotate: Click and drag to rotate the map in 3D space.
+o	Zoom: Use your mouse scroll wheel or touch gestures to zoom in and out.
+o	Pan: Click and hold the map to move it around.
+3.	Select Regions:
+o	Click on a region to view more information about it.
+o	Each region will display details such as cultural landmarks, history, and geographical features.
+3.2 Using VR Mode
+1.	Enter VR Mode:
+o	On the homepage, click the VR icon to enter virtual reality.
+2.	Put on Your VR Headset:
+o	After enabling VR mode, put on your VR headset.
+3.	Explore in VR:
+o	You can navigate the 3D map by looking around and using your VR controllers.
+o	Interact with points of interest by pointing at them and clicking or using gaze-based controls.
+4.	Exit VR Mode:
+o	To exit VR mode, take off your headset or click the Exit VR button on your screen.
+3.3 Viewing Detailed Information
+1.	Click on a Region:
+o	After selecting a region on the 3D map, an information panel will appear, showing text, images, or videos related to that region.
+2.	Details Included:
+o	Landmarks: Famous sites and historical information.
+o	Cultural Significance: Local customs, traditions, and festivals.
+o	Geography: Natural features and landscapes.
+3.4 Additional Features
+Search Functionality
+•	Search Bar: A search bar is available at the top of the site. Type the name of a specific Mongolian region or landmark to quickly locate it on the 3D map.
+Language Support
+•	Switch Language: If your project includes multilingual support, you can switch between Mongolian and English using the language toggle button.
+________________________________________
 
-<div id="top"></div>
-<h1 align="center"> Visit Sri Lanka Website Project</h1>
-<p align="center"><i> A Blog for travelers to planning their trip to Sri Lanka </i></p>
-
-
-## Table of Contents
-<ol>
-    <li><a href="#about">About The Project</a></li>
-    <li><a href="#ui">UI Design</a></li>
- </ol>
-
-<br/>
-
-<a name="about"></a>
-## :round_pushpin: About The Project
-&ensp; *Visitsrilanka.Live Is Your Go-To Resource For Planning A Trip To Sri Lanka In 2023 Which Is A Product Of A Group Of Undergraduate Students In NSBM Green University Under The Web Application Development Module.
-Our Website Features A Wide Range Of Information On The Top Attractions, Adventure Activities, Upcoming Events, A Blog Of Popular Tourist Destinations, And Traditional Products Such As Masks, Spices, Arts, Foods, Industrial Goods... Etc. Whether You're Looking To Relax On Beautiful Beaches, Explore Ancient Temples, Or Discover The Local Cuisine, Visitsrilanka.Live Has You Covered. We Can't Wait To Help You Plan An Unforgettable Trip To Sri Lanka.*<br/>
-
-&ensp;&ensp;&ensp;:point_right: Link to the Repository: <a href="https://github.com/damithadev/Visit-Srilanka-Web"> ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)<a/>
-<p align="right"><a href="#top">[Back to Top:arrow_up:]</a></p>
-
-
-<br/>
-<a name="ui"></a>
-<h2>UI Design For The Project</h2>
-<br>
-<h4>Home Page</h4>
-<br>
-
-![Frame 8](https://github.com/damithadev/Visit-Srilanka-Web/assets/104585591/0cf731a1-3d69-48b4-9813-441de41bc9b5)
-
-<br>
-<h4>Tourisam Map of Sri Lanka</h4>
-<br>
-
-![visitsrilanka live_map](https://github.com/damithadev/Visit-Srilanka-Web/assets/104585591/839b577a-8a26-46f1-bbd9-6178448efa1c)
-
-<br>
-<h4>Travel Blog</h4>
-<br>
-
-![Frame 4 (3)](https://github.com/damithadev/Visit-Srilanka-Web/assets/104585591/a59643c3-6e3b-4c82-8fb7-8c6746c062e1)
-
-<br>
-<h4>Traditional Events </h4>
-<br>
-
-![Frame 5 (1)](https://github.com/damithadev/Visit-Srilanka-Web/assets/104585591/ebe76adc-460f-4ad7-884f-14a8a9eb4652)
-
-<br>
-<h4>Traditional Products </h4>
-<br>
-
-![Frame 6](https://github.com/damithadev/Visit-Srilanka-Web/assets/104585591/56ca28c3-3e13-43cf-a36e-f169993cb552)
-Diploma
+Team members :
+Khosbat
+Kherlen 
+Ulsbold
