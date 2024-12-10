@@ -1,0 +1,37 @@
+{
+  "regions": [
+    {
+      "name": "Ulaanbaatar",
+      "message": "Ulaanbaatar is the capital city of Mongolia...",
+      "attractions": ["Gandan Monastery", "Sukhbaatar Square", "National Museum of Mongolia"],
+      "cuisine": ["Khuushuur", "Boodog"],
+      "activities": ["Urban exploration", "Historical sightseeing"]
+    },
+    {
+      "name": "Gobi Desert",
+      "message": "The Gobi Desert is a vast, arid region...",
+      "attractions": ["Flaming Cliffs", "Khongoryn Els", "Yol Valley"],
+      "cuisine": ["Lamb dishes", "Dried meat", "Dairy products"],
+      "activities": ["Camel trekking", "Desert exploration", "Archaeological sites"]
+    }
+  ],
+  "travelTips": [
+    "Always carry cash, as card payments are not always accepted in rural areas.",
+    "Be prepared for drastic temperature changes, especially in the Gobi Desert or high-altitude regions.",
+    "Pack comfortable shoes for walking and hiking, as many attractions are best explored on foot."
+  ],
+  "culturalInsights": {
+    "message": "Mongolia celebrates Naadam, a major festival...",
+    "details": "Horse racing, archery, and wrestling are key aspects of Naadam."
+  },
+  "faq": [
+    {
+      "question": "What language is spoken in Mongolia?",
+      "answer": "The official language is Mongolian, but many people in cities like Ulaanbaatar speak English or Russian."
+    },
+    {
+      "question": "Is it safe to travel to Mongolia?",
+      "answer": "Yes, Mongolia is generally safe for tourists."
+    }
+  ]
+}
